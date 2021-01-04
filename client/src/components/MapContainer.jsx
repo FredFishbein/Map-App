@@ -17,7 +17,7 @@ function MapContainer(props) {
   }
   
   const mapStyles = {
-    margin: "30px 0 20px 20px",
+    margin: "30px 0 30px 10px",
     height: "60vh",
     width: "96%",
     borderRadius:"15px",
@@ -31,7 +31,7 @@ function MapContainer(props) {
 
   return (
     <LoadScript
-      googleMapsApiKey='ADD API KEY HERE'
+      googleMapsApiKey='AIzaSyB_TovWeVLkzqVNkStjkgYzKHxGY2a5vz8'
      >
       <GoogleMap
       mapContainerStyle={mapStyles}

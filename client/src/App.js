@@ -94,6 +94,9 @@ badgeroot: {
 '& > *': {
 margin: theme.spacing(1),
 marginRight:"20px",
+[theme.breakpoints.down('sm')]:{
+  display:'none',
+}
 },
 },
 
