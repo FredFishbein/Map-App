@@ -31,7 +31,7 @@ function MapContainer(props) {
 
   return (
     <LoadScript
-      googleMapsApiKey='AIzaSyB_TovWeVLkzqVNkStjkgYzKHxGY2a5vz8'
+      googleMapsApiKey='API'
      >
       <GoogleMap
       mapContainerStyle={mapStyles}
