@@ -16,11 +16,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import logo from './img/logo.jpg';
 import logo3 from './img/logo3.svg';
 import MapContainer from './components/MapContainer';
-
-
-
-
-
+import Forecast from './components/Forecast/Forecast';
 
 
 const useStyles = makeStyles((theme) =>({
@@ -160,7 +156,6 @@ logo3:{
           keepMounted
           open={Boolean(anchorEl)}
           onClose={handleClose}
-          
           >
         <MenuItem onClick={handleClose}>Profile</MenuItem>
         <MenuItem onClick={handleClose}>My account</MenuItem>
@@ -170,6 +165,11 @@ logo3:{
       </AppBar>
     </div>
     <MapContainer />
+    <main>
+    <Forecast />
+      </main>
+      <footer>
+      </footer>
     </div>
   );
 }
