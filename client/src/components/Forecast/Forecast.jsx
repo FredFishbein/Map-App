@@ -9,11 +9,11 @@ const Forecast = () => {
 
 
    function getForecast() {
-    fetch("https://community-open-weather-map.p.rapidapi.com/weather?q=Fresno", {
+    fetch("URL", {
         "method": "GET",
         "headers": {
-            "x-rapidapi-key": "0b675797femshf77c9d6573289bcp1fb66cjsn6452f9b91ca6",
-            "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
+            "x-rapidapi-key": "API",
+            "x-rapidapi-host": "URL"
         }
     })
     .then(response => response.json())
